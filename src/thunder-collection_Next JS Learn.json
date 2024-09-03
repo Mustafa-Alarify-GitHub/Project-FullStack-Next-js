@@ -1,0 +1,273 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Next JS Learn",
+    "collectionId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+    "dateExported": "2024-09-03T18:01:24.207Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "4212f15c-2352-4624-ad93-66c21b395d1e",
+            "name": "Articals",
+            "containerId": "",
+            "created": "2024-09-02T09:07:13.809Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Users",
+            "containerId": "",
+            "created": "2024-09-02T10:49:28.348Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "87184f0b-656f-4f15-85f5-75b70061d1e4",
+            "name": "Commits",
+            "containerId": "",
+            "created": "2024-09-02T20:16:38.545Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "92ce1368-a379-4ea6-afa5-d3a81f0ae480",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "4212f15c-2352-4624-ad93-66c21b395d1e",
+            "name": "Get Articals by id",
+            "url": "http://localhost:3000/Api/articals/30",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-02T09:07:30.001Z",
+            "modified": "2024-09-03T11:45:09.797Z",
+            "headers": []
+        },
+        {
+            "_id": "bf5df219-be12-412c-91fd-84b95ce95701",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "4212f15c-2352-4624-ad93-66c21b395d1e",
+            "name": "Delete Articles by ID",
+            "url": "http://localhost:3000/Api/articals/5",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-09-02T09:51:51.411Z",
+            "modified": "2024-09-02T09:51:58.680Z",
+            "headers": []
+        },
+        {
+            "_id": "53decc52-9207-45fa-8745-8b8e218636c6",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "4212f15c-2352-4624-ad93-66c21b395d1e",
+            "name": "update Articles by ID",
+            "url": "http://localhost:3000/Api/articals/5",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-09-02T09:52:17.574Z",
+            "modified": "2024-09-02T10:17:15.315Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"\",\n  \"description\":\"sssssssssssssss\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "26cce3a3-4c73-4bfe-b738-86e509df0d6e",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "4212f15c-2352-4624-ad93-66c21b395d1e",
+            "name": "Create New Articles ",
+            "url": "http://localhost:3000/Api/articals",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-09-02T10:39:28.565Z",
+            "modified": "2024-09-03T11:08:06.738Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"title one\",\n  \"description\": \"Lorem ipsum dolor sit amet maxime Lorem ipsum dolor Lorem ipsum dolor sit amet maxime\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "708b84f1-6440-45d1-af17-414c014384ff",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Register New Users",
+            "url": "http://localhost:3000/Api/Users/Register",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-09-02T10:49:40.962Z",
+            "modified": "2024-09-02T19:16:25.997Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Mustafa\",\n  \"email\": \"Mustafa2@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "01249499-4206-45db-b244-e63a88fc5d86",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Login User",
+            "url": "http://localhost:3000/Api/Users/Lodin",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-09-02T11:57:55.452Z",
+            "modified": "2024-09-02T22:36:07.640Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"Mustafa@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f9a7ed91-b48d-4c6e-93d8-ab3c6ed5626e",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Delete User",
+            "url": "http://localhost:3000/Api/Users/profile/31",
+            "method": "DELETE",
+            "sortNum": 120000,
+            "created": "2024-09-02T13:13:14.388Z",
+            "modified": "2024-09-02T18:22:35.314Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": ".eyJpZCI6MjQsInVzZXJuYW1lIjoiTXVzdGFmYSIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE3MjUyODQ3MjUsImV4cCI6MTcyNTI4NDc4NX0.-i8DIGxSjlpF8HKsO2V7Kyy25qBhgQzxXz8B4J4k7-w",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "9e16a75f-835b-422c-87f4-26299723e517",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Log out user",
+            "url": "http://localhost:3000/Api/Users/Logout",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-09-02T17:35:05.127Z",
+            "modified": "2024-09-02T17:38:29.397Z",
+            "headers": []
+        },
+        {
+            "_id": "f8b0d070-d137-43f3-aeba-8bd2a4b4e05b",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Get profile by id",
+            "url": "http://localhost:3000/Api/Users/profile/33",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-09-02T18:08:35.109Z",
+            "modified": "2024-09-02T18:52:48.320Z",
+            "headers": []
+        },
+        {
+            "_id": "e54bf678-e4ad-4c1e-8307-ee4fdc477bf9",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "d8ef4382-f54b-46e1-8bdf-4a722b857a80",
+            "name": "Update user",
+            "url": "http://localhost:3000/Api/Users/profile/34",
+            "method": "PUT",
+            "sortNum": 150000,
+            "created": "2024-09-02T18:50:11.911Z",
+            "modified": "2024-09-02T19:18:56.669Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"AAAA\",\n  \"email\": \"Mustafa@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1e437469-22a4-4f57-a97a-de64d7d2f663",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "87184f0b-656f-4f15-85f5-75b70061d1e4",
+            "name": "Add new commits",
+            "url": "http://localhost:3000/Api/Commits/30",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2024-09-02T20:34:44.316Z",
+            "modified": "2024-09-03T12:04:41.430Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Mustafa\",\n  \"description\":\"const Vaildion\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "327f9864-642e-4550-a92c-ff7f93793d46",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "87184f0b-656f-4f15-85f5-75b70061d1e4",
+            "name": "Get All commits",
+            "url": "http://localhost:3000/Api/Commits",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2024-09-02T20:47:32.529Z",
+            "modified": "2024-09-02T20:48:05.943Z",
+            "headers": []
+        },
+        {
+            "_id": "3426bd45-0749-4b53-8780-0e62a356e56d",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "87184f0b-656f-4f15-85f5-75b70061d1e4",
+            "name": "Update Commit",
+            "url": "http://localhost:3000/Api/Commits/1",
+            "method": "PUT",
+            "sortNum": 190000,
+            "created": "2024-09-02T22:19:22.629Z",
+            "modified": "2024-09-02T22:33:00.858Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\":\"sssssssssssssss\",\n  \"description\":\"AAAAAAAAAAAAAAA\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7f4a0cdd-7fea-4672-b89f-dc1b7e2981ec",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "87184f0b-656f-4f15-85f5-75b70061d1e4",
+            "name": "Delete commits",
+            "url": "http://localhost:3000/Api/Commits/4",
+            "method": "DELETE",
+            "sortNum": 200000,
+            "created": "2024-09-02T22:34:57.435Z",
+            "modified": "2024-09-02T22:36:14.492Z",
+            "headers": []
+        },
+        {
+            "_id": "27b51b7c-c9a5-4488-987d-ff51339db847",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "4212f15c-2352-4624-ad93-66c21b395d1e",
+            "name": "Get All Articals",
+            "url": "http://localhost:3000/Api/articals?pageNumber=4",
+            "method": "GET",
+            "sortNum": 210000,
+            "created": "2024-09-03T11:12:31.616Z",
+            "modified": "2024-09-03T11:26:36.231Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "pageNumber",
+                    "value": "4",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "c21d65cf-6c4a-445c-bfbc-a626ac04febb",
+            "colId": "3352e9c7-d38b-4dec-9891-d587f61db9d6",
+            "containerId": "87184f0b-656f-4f15-85f5-75b70061d1e4",
+            "name": "Get All Commits by Articals ",
+            "url": "http://localhost:3000/Api/Commits/29",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2024-09-03T11:40:25.634Z",
+            "modified": "2024-09-03T11:41:01.799Z",
+            "headers": []
+        }
+    ],
+    "ref": "LkEzOPu6MB4DdLXnR4cve5Q6R7wRchzufIDRRXqTmUs6ROZO1NtO3N89f5tjdB3gWO-ZpUxzaIMZaCc3WO4AWw"
+}
